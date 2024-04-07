@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL WEBSITE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body> <br>
+    <nav id="desknav">  
+        <div class="myname"> John Michael M. Cano</div>
+        <div >
+            <ul class="navlink">
+                <li><a href="#aboutMe">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            
+                
+            
+        </div>
+       
+    </nav>
+    <div id="logos">
+        <a class="logo" href="https://www.facebook.com/johnmichael.cano.589/"><img src="./fbblogo.jpg" alt="fblogo"></a>
+        <a class="logo" href="https://www.instagram.com/papade_asukall/"><img src="./instalogo.png" alt="instalogo"></a>
+        <a class="logo" href="https://www.tiktok.com/@baklangdutertle"><img src="./tiktok.png" alt="tiktoklogo"></a>
+        <a class="logo" href="#contact"><img src="./lgogocp.jpg" alt="cplogo"></a>
+    </div>
+
+    <nav id="burgernav">
+      <div class="myname"> John Michael M. Cano</div>
+        <div class="burgermenu">
+            <div class="icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="linkmenu">
+                <li><a href="#aboutMe" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="https://www.facebook.com/johnmichael.cano.589/" onclick="toggleMenu()">Face Book</a></li>
+                <li><a href="https://www.instagram.com/papade_asukall/" onclick="toggleMenu()">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@baklangdutertle" onclick="toggleMenu()">Tiktok</a></li>
+                
+
+            </div>
+        </div>
+    </nav> <br> <br>
+    
+    <section id="aboutMe">
+        <div class="picsection">
+            <img src="./PICsofmes.jpg" alt="Picture of me">
+        </div>
+
+        <div class="sectiontext">
+            <p class="text1">Hello!</p>
+            <h1 class="title">I'm John Michael Cano</h1>
+            <p class="text2">I'm studying for a Bachelor's degree in Information Technology, and I'm really excited to dive into full-stack development! Coding is like a fun puzzle for me, and I love the feeling of bringing things to life on the screen.
+
+                When I'm not hitting the books, I love getting lost in a good video game or movie. Those adventures spark my creativity and give me ideas for new things to build. Plus, who doesn't love a good coding challenge?
+                
+                Flying has always fascinated me – maybe it's a leftover dream from wanting to be a pilot as a kid. That feeling of reaching for something big is what keeps me pushing myself in school.
+                
+                Once I graduate, I'm determined to find a job where I can use my skills to help my family and really start my career on the right foot. I'm ready to work hard and make a difference! </p>
+            
+        </div>
+    </section> <br> <br> <br> <br>
+    
+    
+
+    <section id="experience">
+        <div class="picexperience">
+            <img class="experiencepic" src="./exppic.jpg" alt="picexper">
+            <img class="experiencepic" src="./picexp.jpg" alt="exper">
+        </div>
+
+        <div class="container-about">
+            <h1>EXPERIENCE</h1>
+            <p>I've been learning a lot since my first year! I'm still getting the hang of things, but I've picked up C++, Java, SQL, and PHP. Coding in these languages has actually helped me with my part-time job as a delivery rider for Food Panda. It's crazy how learning to code can make you better at problem-solving, even outside of tech! That's definitely motivating me to keep getting better because my ultimate goal is to become a full-stack developer.</p>
+        </div>
+        
+
+    </section> <br> <br> <br>
+
+    <section id="project">
+        <div class="project-text">
+            <h1>Project</h1>
+            <p>
+                I recently enrolled in an online coding bootcamp where Angela Yu is the instructor. As someone who thrives on hands-on learning, I couldn't be happier! Angela's bootcamp is giving me a solid foundation in the essential skills needed to become a full-stack developer. I'm actively working on all the projects she assigns, and I love the challenge of putting my newfound knowledge to the test.
+            </p> <br> <br> <br>
+            <h3>CLICK PROJECT BELOW:</h3>
+            <ul class="project-list">
+                <li><a href="/2.4 Movie Ranking Project/index.html">Movie Ranking</a></li>
+                <li><a href="/6.4 Motivation Meme Project/index.html">Motivation Template</a></li>
+                <li><a href="/6.1 Font Properties/index.html">Font Properties</a></li>
+                <li><a href="/4.4 HTML CAPSTONE/index.html">HTML Portfolio</a></li>
+                
+            </ul>
+
+
+        </div>
+    </section> <br> <br> <br> <br>
+
+
+    <section id="contact">
+        <div class="contact-text">
+            <h1 class="contact-con">Contacts </h1> 
+            
+            <h3 class="contact-con">Mobile Number: 09475179370 </h3>
+            
+            <h3 class="contact-con">Email: cano_johnmichael@plpasig.edu.ph</h3>
+            <img id="callme" src="./callme.jpg" alt="">
+
+
+
+
+                
+        </div>
+    </section>
+    <br> <br> <br>
+
+        
+  
+        
+    <script src="./script.js"></script>
+</body>
+</html>
